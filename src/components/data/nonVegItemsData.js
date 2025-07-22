@@ -1,0 +1,38 @@
+export const nonVegItemsData = [
+  {
+    id: Math.random(),
+    name: 'Snacks',
+    price: 3.99,
+    image: require('../../images/food1.jpg'),
+    tax: 1,
+    shipping: 1,
+    qnt: 1,
+  },
+  {
+    id: Math.random(),
+    name: 'Mutton Biriyani',
+    price: 10.99,
+    image: require('../../images/food2.jpg'),
+    tax: 1,
+    shipping: 1,
+    qnt: 1,
+  },
+  {
+    id: Math.random(),
+    name: 'Fish Tikka',
+    price: 8.99,
+    image: require('../../images/food.jpg'),
+    tax: 1,
+    shipping: 1,
+    qnt: 1,
+  },
+  {
+    id: Math.random(),
+    name: 'Pizza',
+    price: 5.99,
+    image: require('../../images/food3.jpg'),
+    tax: 1,
+    shipping: 1,
+    qnt: 1,
+  },
+];
